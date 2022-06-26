@@ -25,9 +25,6 @@
 		5BA735E52862ACE90046E14C /* ScreenA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA735E32862ACE90046E14C /* ScreenA.storyboard */; };
 		5BA735E72862ACEB0046E14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA735E62862ACEB0046E14C /* Assets.xcassets */; };
 		5BA735EA2862ACEB0046E14C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA735E82862ACEB0046E14C /* LaunchScreen.storyboard */; };
-		5BA735F52862ACEB0046E14C /* mvvm_coordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA735F42862ACEB0046E14C /* mvvm_coordinatorTests.swift */; };
-		5BA735FF2862ACEB0046E14C /* mvvm_coordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA735FE2862ACEB0046E14C /* mvvm_coordinatorUITests.swift */; };
-		5BA736012862ACEB0046E14C /* mvvm_coordinatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA736002862ACEB0046E14C /* mvvm_coordinatorUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +66,7 @@
 		5BA735E92862ACEB0046E14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA735EB2862ACEB0046E14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA735F02862ACEB0046E14C /* mvvm coordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mvvm coordinatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BA735F42862ACEB0046E14C /* mvvm_coordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_coordinatorTests.swift; sourceTree = "<group>"; };
 		5BA735FA2862ACEB0046E14C /* mvvm coordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mvvm coordinatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BA735FE2862ACEB0046E14C /* mvvm_coordinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_coordinatorUITests.swift; sourceTree = "<group>"; };
-		5BA736002862ACEB0046E14C /* mvvm_coordinatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_coordinatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,8 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				5BA735DC2862ACE90046E14C /* mvvm coordinator */,
-				5BA735F32862ACEB0046E14C /* mvvm coordinatorTests */,
-				5BA735FD2862ACEB0046E14C /* mvvm coordinatorUITests */,
 				5BA735DB2862ACE90046E14C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -240,23 +232,6 @@
 				5B36F7522868E8210093948D /* Observable.swift */,
 			);
 			path = "mvvm coordinator";
-			sourceTree = "<group>";
-		};
-		5BA735F32862ACEB0046E14C /* mvvm coordinatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				5BA735F42862ACEB0046E14C /* mvvm_coordinatorTests.swift */,
-			);
-			path = "mvvm coordinatorTests";
-			sourceTree = "<group>";
-		};
-		5BA735FD2862ACEB0046E14C /* mvvm coordinatorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5BA735FE2862ACEB0046E14C /* mvvm_coordinatorUITests.swift */,
-				5BA736002862ACEB0046E14C /* mvvm_coordinatorUITestsLaunchTests.swift */,
-			);
-			path = "mvvm coordinatorUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,7 +387,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA735F52862ACEB0046E14C /* mvvm_coordinatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,8 +394,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA735FF2862ACEB0046E14C /* mvvm_coordinatorUITests.swift in Sources */,
-				5BA736012862ACEB0046E14C /* mvvm_coordinatorUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
